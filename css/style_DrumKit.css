@@ -1,0 +1,30 @@
+﻿body {
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1  {
+	text-align: center;	
+}
+
+.drum-kit {
+	text-align: center;
+}
+
+.container  {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 30px;
+	gap: 20px;
+}
+ 
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+	background: #12e4c6;
+}
+

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Personal Homepage</title>
+    <link rel="stylesheet" href="css\style_homepage.css">
+	<link rel="stylesheet" href="css\slideshow_homepage.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+	<header>
+	<h1>Ben Durie</h1>
+	</header>
+
+	<nav>
+	<a href="#projects">Projects</a>
+	<a href="#about">About</a>
+	<a href="#skills">Skills</a>
+	</nav>
+	
+    <!-- Projects Section -->
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+            <div class="slider-container">
+				<!-- Project 1 -->
+				<div class="slide fade">
+					<img src="images/project1.jpg" alt="Project 1">
+					<div class="overlay">
+						<h3>HoverChair</h3>
+						<p>Discover the ultimate seating experience</p>
+					</div>
+				</div>
+
+				<!-- Project 2 -->
+				<div class="slide fade">
+					<img src="images/project2.jpg" alt="Project 2">
+					<div class="overlay">
+						<h3>Cake Raffle</h3>
+						<p>Join our Cake Raflle</p>
+					</div>
+				</div>
+
+				<!-- Project 3 -->
+				<div class="slide fade">
+					<img src="images/project3.jpg" alt="Project 3">
+					<div class="overlay">
+						<h3>BarkerBox</h3>
+						<p>15% off to new subscribers</p>
+					</div>
+				</div>
+				
+			</div>
+
+			<!-- Dot Navigation -->
+			<div class="dot-container">
+				<span class="dot" onclick="currentSlide(1)"></span>
+				<span class="dot" onclick="currentSlide(2)"></span>
+				<span class="dot" onclick="currentSlide(3)"></span>
+			</div>
+			
+    </section>
+	
+	<section id="about">
+	<h2>About Me</h2>
+	<div class="container">
+	<img src="images/photo.jpg" alt="Ben Durie's Picture">
+	<div class="introduction">
+		<p>Hello! I'm Ben Durie, a passionate individual dedicated to [brief description of your field/interests]. Feel free to explore my projects and skills to get to know me better.</p>
+		</div>
+		<p>Check out my <a href="link_to_your_resume.pdf" target="_blank">resume</a> for more details.</p>
+	</div>
+	</section>
+
+	<section id="skills" class="container">
+		<h2>Skills</h2>
+		<div class="skills">
+		  <div class="skill">
+			<h3>HTML</h3>
+			<p>Proficient in writing semantic and accessible HTML code for building web pages.</p>
+			<progress value="80" max="100"></progress>
+		  </div>
+
+		  <div class="skill">
+			<h3>CSS</h3>
+			<p>Skilled in styling web pages with CSS and creating responsive layouts.</p>
+			<progress value="70" max="100"></progress>
+		  </div>
+
+		  <div class="skill">
+			<h3>JavaScript</h3>
+			<p>Familiar with JavaScript and building interactive features for websites.</p>
+			<progress value="60" max="100"></progress>
+		  </div>
+		</div>
+		
+	</section>
+
+	<footer>
+		<div class="social-icons">
+			<a href="link_to_linkedin_profile" target="_blank"><i class="fab fa-linkedin"></i></a>
+			<a href="link_to_twitter_profile" target="_blank"><i class="fab fa-twitter"></i></a>
+			<a href="link_to_instagram_profile" target="_blank"><i class="fab fa-instagram"></i></a>
+		</div>
+		<p>&copy; 2024 Ben Durie. All rights reserved.</p>
+	</footer>
+	<script src="js\index_homepage.js"></script>
+</body>
+</html>
